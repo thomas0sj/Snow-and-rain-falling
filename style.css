@@ -1,0 +1,46 @@
+#div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    border-color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+body{
+    background-color: rgb(78, 75, 112);
+}
+
+.fa-snowflake{
+    animation: fall linear forwards;
+    color: #fff;
+    position: absolute;
+    top: -20px;
+}
+
+@keyframes fall{
+    to{
+        transform: translateY(105vh);
+    }
+}
+
+.fa-droplet{
+    animation: fall linear forwards;
+    color: darkblue;
+    position: absolute;
+    top: -20px;
+}
